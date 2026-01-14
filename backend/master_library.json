@@ -179,6 +179,86 @@
         "noir",
         "identity"
       ]
+    },
+    {
+      "id": "m11",
+      "title": "Seven Samurai",
+      "subtitle": "Akira Kurosawa, 1954",
+      "image": "images/seven_samurai.png",
+      "technicianReview": "Invented the modern action movie grammar. The use of telephoto lenses captures the chaos of battle.",
+      "soulNote": "A study of sacrifice and duty.",
+      "significance": "The ultimate team-up movie.",
+      "defaultContext": "\"Seven Samurai\"",
+      "artistFact": "To be added.",
+      "tags": [
+        "Action",
+        "global",
+        "art"
+      ]
+    },
+    {
+      "id": "m12",
+      "title": "Spirited Away",
+      "subtitle": "Hayao Miyazaki, 2001",
+      "image": "images/spirited_away.png",
+      "technicianReview": "A masterpiece of hand-drawn animation.",
+      "soulNote": "A journey into the spirit world.",
+      "significance": "Proves animation is for everyone.",
+      "defaultContext": "\"Spirited Away\"",
+      "artistFact": "To be added.",
+      "tags": [
+        "Animation",
+        "global",
+        "art"
+      ]
+    },
+    {
+      "id": "m13",
+      "title": "Amelie",
+      "subtitle": "Jean-Pierre Jeunet, 2001",
+      "image": "images/amelie.png",
+      "technicianReview": "A visual delight of green and red hues.",
+      "soulNote": "Finding magic in the mundane.",
+      "significance": "A love letter to Paris.",
+      "defaultContext": "\"Amelie\"",
+      "artistFact": "To be added.",
+      "tags": [
+        "Comedy",
+        "global",
+        "art"
+      ]
+    },
+    {
+      "id": "m14",
+      "title": "City of God",
+      "subtitle": "Fernando Meirelles, 2002",
+      "image": "images/city_of_god.png",
+      "technicianReview": "Kinetic editing and raw energy.",
+      "soulNote": "Life in the favelas.",
+      "significance": "A brutal yet beautiful reality.",
+      "defaultContext": "\"City of God\"",
+      "artistFact": "To be added.",
+      "tags": [
+        "Crime",
+        "global",
+        "art"
+      ]
+    },
+    {
+      "id": "m15",
+      "title": "Bicycle Thieves",
+      "subtitle": "Vittorio De Sica, 1948",
+      "image": "images/bicycle_thieves.png",
+      "technicianReview": "Neorealism at its finest.",
+      "soulNote": "The desperation of poverty.",
+      "significance": "Cinema of the streets.",
+      "defaultContext": "\"Bicycle Thieves\"",
+      "artistFact": "To be added.",
+      "tags": [
+        "Drama",
+        "global",
+        "art"
+      ]
     }
   ],
   "music": [
@@ -361,6 +441,54 @@
         "improvisation",
         "night"
       ]
+    },
+    {
+      "id": "m_1768371946_997",
+      "title": "Discovery",
+      "subtitle": "Daft Punk, 2001",
+      "image": "images/discovery.png",
+      "technicianReview": "Automatically ingested. A Dance work by Daft Punk....",
+      "soulNote": "To be written by the curator.",
+      "significance": "A masterpiece from the global archive.",
+      "defaultContext": "\"Discovery\"",
+      "artistFact": "To be added.",
+      "tags": [
+        "Dance",
+        "global",
+        "art"
+      ]
+    },
+    {
+      "id": "m_1768371947_330",
+      "title": "Wish You Were Here",
+      "subtitle": "Pink Floyd, 1975",
+      "image": "images/wish_you_were_here.png",
+      "technicianReview": "Automatically ingested. A Rock work by Pink Floyd....",
+      "soulNote": "To be written by the curator.",
+      "significance": "A masterpiece from the global archive.",
+      "defaultContext": "\"Wish You Were Here\"",
+      "artistFact": "To be added.",
+      "tags": [
+        "Rock",
+        "global",
+        "art"
+      ]
+    },
+    {
+      "id": "m_1768371948_944",
+      "title": "Getz/Gilberto",
+      "subtitle": "Stan Getz & Jo\u00e3o Gilberto, 1964",
+      "image": "images/getz_gilberto.png",
+      "technicianReview": "Automatically ingested. A Jazz work by Stan Getz & Jo\u00e3o Gilberto....",
+      "soulNote": "To be written by the curator.",
+      "significance": "A masterpiece from the global archive.",
+      "defaultContext": "\"Getz/Gilberto\"",
+      "artistFact": "To be added.",
+      "tags": [
+        "Jazz",
+        "global",
+        "art"
+      ]
     }
   ],
   "books": [
@@ -542,6 +670,70 @@
         "art",
         "love",
         "society"
+      ]
+    },
+    {
+      "id": "b11",
+      "title": "The Stranger",
+      "subtitle": "Albert Camus, 1942",
+      "image": "images/the_stranger.png",
+      "technicianReview": "Written in simple, detached sentences that mirror the protagonist's emotional alienation.",
+      "soulNote": "A confrontation with the absurdity of existence.",
+      "significance": "Camus challenges us to find meaning in a world that offers none.",
+      "defaultContext": "\"Today, mother died.\"",
+      "artistFact": "Camus wrote this novel while working for a newspaper in Algiers.",
+      "tags": [
+        "Existentialism",
+        "global",
+        "art"
+      ]
+    },
+    {
+      "id": "b_1768371952_583",
+      "title": "The Alchemist",
+      "subtitle": "Paulo Coelho, 2015",
+      "image": "images/the_alchemist.png",
+      "technicianReview": "Automatically ingested. \u201cTo realize one\u2019s destiny is a person\u2019s only obligation.\u201d\u2014from The Alchemist The Alchemist tells the...",
+      "soulNote": "To be written by the curator.",
+      "significance": "A masterpiece from the global archive.",
+      "defaultContext": "\"The Alchemist\"",
+      "artistFact": "To be added.",
+      "tags": [
+        "Business & Economics",
+        "global",
+        "art"
+      ]
+    },
+    {
+      "id": "b_1768371955_469",
+      "title": "Norwegian Wood",
+      "subtitle": "Haruki Murakami, 2001",
+      "image": "images/norwegian_wood.png",
+      "technicianReview": "Automatically ingested. Toru Watanabe is looking back on the love and passions of his life and trying to make sense of it al...",
+      "soulNote": "To be written by the curator.",
+      "significance": "A masterpiece from the global archive.",
+      "defaultContext": "\"Norwegian Wood\"",
+      "artistFact": "To be added.",
+      "tags": [
+        "Man-woman relationships",
+        "global",
+        "art"
+      ]
+    },
+    {
+      "id": "b_1768371957_568",
+      "title": "The Unbearable Lightness of Being",
+      "subtitle": "Milan Kundera, 2020",
+      "image": "images/the_unbearable_lightness_of_being.png",
+      "technicianReview": "Automatically ingested. 'A cult figure.' Guardian 'A dark and brilliant achievement.' Ian McEwan 'Shamelessly clever ... Exh...",
+      "soulNote": "To be written by the curator.",
+      "significance": "A masterpiece from the global archive.",
+      "defaultContext": "\"The Unbearable Lightness of Being\"",
+      "artistFact": "To be added.",
+      "tags": [
+        "Fiction",
+        "global",
+        "art"
       ]
     }
   ]

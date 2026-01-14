@@ -1,14 +1,16 @@
 import json
 import random
 import datetime
+import os
+import urllib.request
+import urllib.error
 
 # --- CONFIG ---
 LIBRARY_PATH = 'master_library.json'
 OUTPUT_PATH = '../js/data.js'
+GNEWS_API_KEY = os.environ.get('GNEWS_API_KEY')
 
-# --- 1. THE PULSE ENGINE (Simulated) ---
-# In a real version, this would scrape GDELT/NewsAPI.
-# Here, we accept an input 'Vibe' or 'Headline'.
+# --- 1. THE PULSE ENGINE (Real + Simulated) ---
 
 GENRES = {
     "Conflict": ["war", "chaos", "politics", "survival", "history"],
@@ -35,6 +37,33 @@ def analyze_mood(news_headline):
         return "Social/Justice"
     else:
         return "Spiritual/Deep" # Default fall back to deep art
+
+def fetch_real_news():
+    """Fetches top headlines from GNews API."""
+    if not GNEWS_API_KEY:
+        return None
+        
+    url = f"https://gnews.io/api/v4/top-headlines?category=general&lang=en&max=5&apikey={GNEWS_API_KEY}"
+    try:
+        with urllib.request.urlopen(url) as response:
+            data = json.load(response)
+            if data.get('articles'):
+                # Return a random headline from the top 5
+                return random.choice(data['articles'])['title']
+    except Exception as e:
+        print(f"Warning: News API failed ({e}). Falling back to simulation.")
+        return None
+    return None
+
+def get_simulated_headline():
+    """Fallback simulation if API is down or no key provided."""
+    topics = [
+        "Massive AI breakthrough changes how we write code", 
+        "Tensions rise in the border regions as peace talks fail",
+        "A quiet day of reflection and meditation across the globe",
+        "Protests erupt over wealth inequality in major capitals"
+    ]
+    return random.choice(topics)
 
 # --- 2. THE CURATOR ---
 
@@ -120,17 +149,16 @@ def generate_js(edition):
 # --- MAIN LOOP ---
 
 if __name__ == "__main__":
-    print("--- ANIMA WORLD PULSE AGENT v1.1 ---")
-    print("Simulating Neural Link with Global News Sources...")
+    print("--- ANIMA WORLD PULSE AGENT v2.0 ---")
     
-    # 1. Input (Simulated News)
-    topics = [
-        "Massive AI breakthrough changes how we write code", 
-        "Tensions rise in the border regions as peace talks fail",
-        "A quiet day of reflection and meditation across the globe",
-        "Protests erupt over wealth inequality in major capitals"
-    ]
-    headline = random.choice(topics)
+    # 1. Input (Real vs Simulated)
+    headline = fetch_real_news()
+    if headline:
+        print("Connected to Global Neural Link (GNews)...")
+    else:
+        print("Neural Link Offline. Simulating inputs...")
+        headline = get_simulated_headline()
+        
     print(f"HEADLINE DETECTED: '{headline}'")
     
     # 2. Analyze

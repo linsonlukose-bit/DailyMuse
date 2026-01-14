@@ -1,0 +1,17 @@
+# Format: type: Title
+# Supported types: movie, music, book
+
+movie: Seven Samurai
+movie: Spirited Away
+movie: Amelie
+movie: City of God
+movie: Bicycle Thieves
+
+music: Discovery (Daft Punk)
+music: Wish You Were Here
+music: Getz/Gilberto
+
+book: The Stranger
+book: The Alchemist
+book: Norwegian Wood
+book: The Unbearable Lightness of Being
