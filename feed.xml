@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+ <title>ANIMA | Daily Muse</title>
+ <description>Daily curated art, music, and cinema.</description>
+ <link>https://linsonlukose-bit.github.io/DailyMuse</link>
+ <lastBuildDate>Wed, 14 Jan 2026 13:04:12 GMT</lastBuildDate>
+ <pubDate>Wed, 14 Jan 2026 13:03:29 GMT</pubDate>
+
+    
+    <item>
+        <title>Edition 2026-01-14: Spiritual/Deep</title>
+        <link>https://linsonlukose-bit.github.io/DailyMuse</link>
+        <guid isPermaLink="false">https://linsonlukose-bit.github.io/DailyMuse/2026-01-14</guid>
+        <pubDate>Wed, 14 Jan 2026 13:04:12 GMT</pubDate>
+        <description><![CDATA[
+    <h3>Todays Mood: Spiritual/Deep</h3>
+    <p>Inspired by: A quiet day of reflection and meditation across the globe</p>
+    <hr/>
+    <p><strong>Cinema:</strong> Mirror (Andrei Tarkovsky, 1975)<br/>
+    <em>""Words can't express a person's whole vividness.""</em></p>
+    <img src="https://linsonlukose-bit.github.io/DailyMuse/images/mirror.png" width="300"/>
+    <hr/>
+    <p><strong>Music:</strong> Sounds of India (Ravi Shankar, 1968)</p>
+    <hr/>
+    <p><strong>Literature:</strong> 100 Years of Solitude (G.G. Márquez, 1967)</p>
+    <p><a href="https://linsonlukose-bit.github.io/DailyMuse">Visit ANIMA for the full experience.</a></p>
+    ]]></description>
+    </item>
+    <item>
+        <title>Edition 2026-01-14: Tech/Future</title>
+        <link>https://linsonlukose-bit.github.io/DailyMuse</link>
+        <guid isPermaLink="false">https://linsonlukose-bit.github.io/DailyMuse/2026-01-14</guid>
+        <pubDate>Wed, 14 Jan 2026 13:03:29 GMT</pubDate>
+        <description><![CDATA[
+    <h3>Todays Mood: Tech/Future</h3>
+    <p>Inspired by: Massive AI breakthrough changes how we write code</p>
+    <hr/>
+    <p><strong>Cinema:</strong> 2001: A Space Odyssey (Stanley Kubrick, 1968)<br/>
+    <em>""I'm sorry, Dave. I'm afraid I can't do that.""</em></p>
+    <img src="https://linsonlukose-bit.github.io/DailyMuse/images/2001.png" width="300"/>
+    <hr/>
+    <p><strong>Music:</strong> Homogenic (Björk, 1997)</p>
+    <hr/>
+    <p><strong>Literature:</strong> The Road (Cormac McCarthy, 2006)</p>
+    <p><a href="https://linsonlukose-bit.github.io/DailyMuse">Visit ANIMA for the full experience.</a></p>
+    ]]></description>
+    </item>
+    </channel>
+</rss>

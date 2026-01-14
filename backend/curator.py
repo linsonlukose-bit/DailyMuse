@@ -4,6 +4,7 @@ import datetime
 import os
 import urllib.request
 import urllib.error
+import marketer
 
 # --- CONFIG ---
 LIBRARY_PATH = 'master_library.json'
@@ -179,3 +180,9 @@ if __name__ == "__main__":
         f.write(js)
         
     print(f"Successfully updated {OUTPUT_PATH}")
+
+    # 5. Hype Agent (Marketing)
+    try:
+        marketer.run_marketing_campaign(edition, mood, headline)
+    except Exception as e:
+        print(f"Marketing Agent failed (non-critical): {e}")
