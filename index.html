@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIMA | Personal Art Curated</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;700;800&family=Inter:wght@300;400;500;600&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <!-- Ambient background layer -->
+    <div class="ambient-bg"></div>
+
+    <div class="container">
+        <!-- HERO -->
+        <header class="hero-header" id="home">
+            <div id="daily-date" class="hero-date"></div>
+            <h1 class="hero-title">ANIMA.</h1>
+            <p class="hero-subtitle">Art for the Inner Self</p>
+
+            <div class="hero-manifesto">
+                <p>
+                    Every 24 hours, <span style="color: #fff; font-style: normal;">ANIMA</span> breathes with the world.
+                    We
+                    curate Cinema, Sound, and Letters not just for their
+                    beauty, but for their relevance to this specific day.
+                </p>
+                <p style="margin-top: 1rem;">
+                    Whether the world is celebrating or grieving, we find the art that speaks to the moment. A living
+                    archive tailored to the pulse of today.
+                </p>
+            </div>
+        </header>
+    </div>
+
+    <!-- CINEMA SECTION -->
+    <div id="cinema-section">
+        <h2 class="cinema-title">Cinema</h2>
+        <div id="movies-grid" class="bento-grid"></div>
+    </div>
+
+    <!-- MUSIC SECTION -->
+    <div id="music-section">
+        <h2 class="music-title">Music</h2>
+        <div id="music-grid" class="bento-grid"></div>
+    </div>
+
+    <!-- LITERATURE SECTION -->
+    <div id="literature-section">
+        <h2 class="lit-title">Literature</h2>
+        <div id="books-grid" class="bento-grid"></div>
+    </div>
+    </div>
+
+    <footer
+        style="text-align: center; padding: 4rem 0; color: var(--text-muted); border-top: 1px solid var(--glass-border);">
+        <p>Daily Muse Edition © 2026</p>
+    </footer>
+
+    <!-- Floating Dock -->
+    <nav class="dock">
+        <a href="#home" class="dock-link active">Home</a>
+        <a href="#cinema-section" class="dock-link">Cinema</a>
+        <a href="#music-section" class="dock-link">Music</a>
+        <a href="#literature-section" class="dock-link">Literature</a>
+    </nav>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
